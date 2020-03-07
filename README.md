@@ -46,7 +46,7 @@ The entire process comprises two steps:
 ![](https://miro.medium.com/max/1117/0*fC8M7XY3gFifIpYi.png)
 
 
-**Stylization(F1)**
+#### **Stylization(F1)**
 
 For photorealistic stylization an approach called PhotoWCT is used which is an architectural fine tuning of [WCT](https://arxiv.org/abs/1705.08086)
 
@@ -60,15 +60,22 @@ A synopsis for the training method for WCT is:
 
 ![](https://miro.medium.com/max/1312/0*8dkFm5QPDd538iEm.png)
 
-For WCT, when the encoder does Maxpooling, the size of the image is doubled but the spatial information is destroyed and Unsampling was used to resote it
+For WCT, when the encoder does Maxpooling, the size of the image is doubled but the spatial information is destroyed and Unsampling is used to resote it
 
 For PhotoWCT Unpooling (green) is used to replace the original Upsampling (pink)
 
-![](https://miro.medium.com/max/1312/0*-PJKA1BM6c6fZQ6A.png)
+![](https://github.com/smaranjitghose/DeepHoli/blob/master/images/stylization_1.png)
 
-**Smoothning(F2)**:
+##### **Smoothning(F2)**:
 
-We use the pixel affinities in the ``content image`` tos smoothen the output of ```PhotoWCT```  so that the stylization effect between the surrounding pixels is identical and the style conversion of the overall image is intact as much as possible
+The pixel affinities in the ``content image`` are used to smoothen the output of ```PhotoWCT```  to ensure that the stylization effect between the surrounding pixels is identical while the style conversion of the overall image remains intact as much as possible
+
+For describing pixel similarities, all the pixels are represented as nodes in a graph and an affinity matrix is defined as:
+
+![](https://miro.medium.com/max/1145/0*_gC1BA_c4kt-OIGY.png)
+
+For the optimization, we take care of a smoothening and fitting component:
+![](https://github.com/smaranjitghose/DeepHoli/blob/master/images/smoothning_1.png)
 
 
 
