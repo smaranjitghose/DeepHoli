@@ -1,5 +1,5 @@
 # DeepHoli 🎨💦
-An deep learning application to simulate holi for your gang of friends!
+An deep learning application to simulate holi affect for your group pictures!
 
 ## **Holi** 🎊💃
 
