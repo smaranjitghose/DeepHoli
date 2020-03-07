@@ -31,7 +31,7 @@ We make use of the concept of **Photorealistic Image Style Transfer** 📸 here,
 
 While several methods have been proposed over the years, here we shall use [NVIDIA'S A Closed-form Solution to Photorealistic Image Stylization](https://research.nvidia.com/publication/2018-09_A-Closed-form-Solution) for our purpose 🔥
 
-#### An overview of what's happening under the hood: 🔍
+## An overview of what's happening under the hood: 🔍
 
 The entire process comprises two steps:
 
@@ -76,6 +76,17 @@ For describing pixel similarities, all the pixels are represented as nodes in a 
 
 For the optimization, we take care of a smoothening and fitting component:
 ![](https://github.com/smaranjitghose/DeepHoli/blob/master/images/smoothning_1.png)
+
+## Enough of literature🥱🥱 ..Show me the code 🏗!
+
+#### Requirements:
+1. python must be installed
+2. The following dependencies should be installed:
+- numpy
+- Pillow
+- keras
+- scipy
+
 
 
 
