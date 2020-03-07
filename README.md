@@ -38,12 +38,37 @@ The entire process comprises two steps:
 
 ![](https://miro.medium.com/max/691/0*FdRWiIH6w9OistOF.png)
 
-1. PhotoWCT (F1): Generating a ``stylized image`` with visible distortions by applying a whitening and coloring transform to the deep features extracted from the ```content image(Ic)``` and  ```style image(Is)```.
+1. Stylization (F1): Generating a ``stylized image`` with visible distortions by applying a whitening and coloring transform to the deep features extracted from the ```content image(Ic)``` and  ```style image(Is)```.
 
 
-2. Photorealistic Smoothing(F2): Suppressing the distortion in the ```stylized image``` by applying an image smoothing filter to make sure that it retains the spatial information of the ```content image(Ic)```
+2. Smoothing(F2): Suppressing the distortion in the ```stylized image``` by applying an image smoothing filter to make sure that it retains the spatial information of the ```content image(Ic)```
 
 ![](https://miro.medium.com/max/1117/0*fC8M7XY3gFifIpYi.png)
+
+
+**Stylization(F1)**
+
+For photorealistic stylization an approach called PhotoWCT is used which is an architectural fine tuning of [WCT](https://arxiv.org/abs/1705.08086)
+
+A synopsis for the training method for WCT is:
+
+1. Do the task of image reconstruction through VGG architecture.
+2. Based on the image of the trained VGG Net input Ic, the output of the last layer of the Encoder is proposed.
+3. Based on the image of the trained VGG Net input Is, the output of the last layer of the Encoder is proposed.
+4. Wc conversion of Ic based on Is information is called A.
+5. Use A as the input of the Decoder. After the Decoder, it will output the style converted picture.
+
+![](https://miro.medium.com/max/1312/0*8dkFm5QPDd538iEm.png)
+
+For WCT, when the encoder does Maxpooling, the size of the image is doubled but the spatial information is destroyed and Unsampling was used to resote it
+
+For PhotoWCT Unpooling (green) is used to replace the original Upsampling (pink)
+
+![](https://miro.medium.com/max/1312/0*-PJKA1BM6c6fZQ6A.png)
+
+
+
+
 
 
 ## Credits 👏👏
