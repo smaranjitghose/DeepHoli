@@ -31,10 +31,25 @@ We make use of the concept of **Photorealistic Image Style Transfer** 📸 here,
 
 While several methods have been proposed over the years, here we shall use [NVIDIA'S A Closed-form Solution to Photorealistic Image Stylization](https://research.nvidia.com/publication/2018-09_A-Closed-form-Solution) for our purpose 🔥
 
+#### An overview of what's happening under the hood: 🔍
+
+The stylization process comprises two steps:
+
+1. PhotoWCT: Generate a stylized image with visible distortions by applying a whitening and coloring transform to the deep features extracted from the content and style images.
+
+2. Photorealistic Smoothing: Suppress the distortion in the stylized image by applying an image smoothing filter to make sure Ensure that the generated image retains the spatial information of the content image
+
+![](https://miro.medium.com/max/691/0*FdRWiIH6w9OistOF.png)
+
+
 ## Credits
 
-** Closed-form Solution to Photorealistic Image Stylization** 
+This repo is merely a reimplementation of the following work to cater to the Holi scenario and complete credit goes to:
 
-[Research Paper](https://eccv2018.org/openaccess/content_ECCV_2018/papers/Yijun_Li_A_Closed-form_Solution_ECCV_2018_paper.pdf) 
+**Closed-form Solution to Photorealistic Image Stylization-Yijun Li, Ming Yu Liu, Xueting Li, Ming Hsuan Yang, Jan Kautz** 
+
+|[Research Paper](https://eccv2018.org/openaccess/content_ECCV_2018/papers/Yijun_Li_A_Closed-form_Solution_ECCV_2018_paper.pdf)
 
 [GitHub Repo](https://github.com/NVIDIA/FastPhotoStyle)
+
+[Copyright (C) 2018 NVIDIA Corporation. All rights reserved. Licensed under the CC BY-NC-SA 4.0 license](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode)
