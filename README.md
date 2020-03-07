@@ -107,7 +107,10 @@ For the optimization, we take care of a smoothening and fitting component:
 
 ![](https://github.com/smaranjitghose/DeepHoli/blob/master/images/amalgated.png)
 
+## Contributors
 
+- Smaranjit Ghose
+- Suhrid Datta
 
 
 ## Credits 👏👏
