@@ -52,9 +52,8 @@ A synopsis for the training method for WCT is:
 
 1. Do the task of image reconstruction through VGG architecture.
 2. Based on the image of the trained VGG Net input Ic, the output of the last layer of the Encoder is proposed.
-3. Based on the image of the trained VGG Net input Is, the output of the last layer of the Encoder is proposed.
-4. Wc conversion of Ic based on Is information is called A.
-5. Use A as the input of the Decoder. After the Decoder, it will output the style converted picture.
+3. Wc conversion of Ic based on Is information is called A.
+4. Use A as the input of the Decoder. After the Decoder, it will output the style converted picture.
 
 ![](https://miro.medium.com/max/1312/0*8dkFm5QPDd538iEm.png)
 
