@@ -12,7 +12,6 @@ An deep learning application to simulate holi affect for your group pictures!
 ![](https://github.com/smaranjitghose/DeepHoli/blob/master/images/holi_2.jpg)
 ```Photo by Sandra Seitamaa on Unsplash```
 
-
 Popularly known as the __Festival of Colors__, a vital part of the celebration is characterized people smearing each other's face with dry powered colors called _abir_ or _gulal_. This can be also extended to a water fight where people use water guns(_pichkaris_) or colored water filled ballons against each other to end up like a canvas of colors while enjoying the entire activity in playfullness
 
 ## The motivation 
@@ -34,7 +33,6 @@ While several methods have been proposed over the years, here we shall use [NVID
 ## An overview of what's happening under the hood: 🔍
 
 The entire process comprises two steps:
-
 
 ![](https://miro.medium.com/max/691/0*FdRWiIH6w9OistOF.png)
 
