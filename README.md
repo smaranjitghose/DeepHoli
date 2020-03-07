@@ -1,11 +1,16 @@
 # DeepHoli 🎨💦
-A kickass way to introduce anyone group of friends in the world to the festival of colors
+An deep learning application to simulate holi for your gang of friends!
 
 ## **Holi** 🎊💃
 
-![](https://unsplash.com/photos/icyZmdkCGZ0)
+![](https://github.com/smaranjitghose/DeepHoli/blob/master/images/holi_1.jpg)
+```Photo by Maxime Bhm on Unsplash```
 
-Holi is an auspisious full moon day 🌕 celebrated predominantly in India and other parts of the world that signifies the arrival of spring 😎 and the end of winter ❄ . Additionaly it serves to be an occasion for ushering love😍 , forgeting old differences ⚔ , forgiving each other 🙏 , reparing shattered connections 🔨 and most importantly meeting each other 🙋‍♀️🙋‍♂️ and spending a gala time together.
+
+[Holi](https://en.wikipedia.org/wiki/Holi) is an auspisious full moon day 🌕 celebrated predominantly in India and other parts of the world that signifies the arrival of spring 😎 and the end of winter ❄ . Additionaly it serves to be an occasion for ushering love😍 , forgeting old differences ⚔ , forgiving each other 🙏 , reparing shattered connections 🔨 and most importantly meeting each other 🙋‍♀️🙋‍♂️ and spending a gala time together.
+
+![](https://github.com/smaranjitghose/DeepHoli/blob/master/images/holi_2.jpg)
+```Photo by Sandra Seitamaa on Unsplash```
 
 
 Popularly known as the __Festival of Colors__, a vital part of the celebration is characterized people smearing each other's face with dry powered colors called _abir_ or _gulal_. This can be also extended to a water fight where people use water guns(_pichkaris_) or colored water filled ballons against each other to end up like a canvas of colors while enjoying the entire activity in playfullness
@@ -22,7 +27,7 @@ So, it sprung upon that can we use deep learning to emulate how it would be for 
 
 
 
-### Credits
+## Credits
 
 A Closed-form Solution to Photorealistic Image Stylization
 
