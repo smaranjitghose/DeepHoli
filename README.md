@@ -77,7 +77,7 @@ For describing pixel similarities, all the pixels are represented as nodes in a 
 For the optimization, we take care of a smoothening and fitting component:
 ![](https://github.com/smaranjitghose/DeepHoli/blob/master/images/smoothning_1.png)
 
-## Enough of literature🥱🥱 ..Show me the code 🏗!
+## Enough of literature🥱🥱 ..Show me the work 🏗!
 
 #### Requirements:
 1. python must be installed
@@ -86,6 +86,23 @@ For the optimization, we take care of a smoothening and fitting component:
 - Pillow
 - keras
 - scipy
+
+#### Input:
+
+- Our Content Image:
+![](https://github.com/smaranjitghose/DeepHoli/blob/master/images/content.png)
+
+- The Holi Style:
+![](https://github.com/smaranjitghose/DeepHoli/blob/master/images/style.png)
+
+#### Output:
+
+- Happy Holy:
+![](https://github.com/smaranjitghose/DeepHoli/blob/master/images/output.png)
+
+#### Comparisions:
+
+![](https://github.com/smaranjitghose/DeepHoli/blob/master/images/amalgated.png)
 
 
 
