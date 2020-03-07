@@ -90,14 +90,17 @@ For the optimization, we take care of a smoothening and fitting component:
 #### Input:
 
 - Our Content Image:
+
 ![](https://github.com/smaranjitghose/DeepHoli/blob/master/images/content.png)
 
 - The Holi Style:
+
 ![](https://github.com/smaranjitghose/DeepHoli/blob/master/images/style.png)
 
 #### Output:
 
-- Happy Holy:
+- Happy Holi:
+
 ![](https://github.com/smaranjitghose/DeepHoli/blob/master/images/output.png)
 
 #### Comparisions:
