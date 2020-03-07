@@ -66,7 +66,7 @@ For PhotoWCT Unpooling (green) is used to replace the original Upsampling (pink)
 
 ![](https://miro.medium.com/max/1312/0*-PJKA1BM6c6fZQ6A.png)
 
-**Smoothning(F2):
+**Smoothning(F2)**:
 
 We use the pixel affinities in the ``content image`` tos smoothen the output of ```PhotoWCT```  so that the stylization effect between the surrounding pixels is identical and the style conversion of the overall image is intact as much as possible
 
