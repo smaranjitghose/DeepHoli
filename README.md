@@ -119,4 +119,4 @@ This repo is merely a reimplementation of the following work catering to the Hol
 - [Research Paper](https://eccv2018.org/openaccess/content_ECCV_2018/papers/Yijun_Li_A_Closed-form_Solution_ECCV_2018_paper.pdf) 📃
 - [GitHub Repo](https://github.com/NVIDIA/FastPhotoStyle) 👨‍💻👩‍💻
 
-[Copyright (C) 2018 NVIDIA Corporation. All rights reserved. Licensed under the CC BY-NC-SA 4.0 license] (https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode)
+[Copyright (C) 2018 NVIDIA Corporation. All rights reserved.Licensed under the CC BY-NC-SA 4.0 license](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode)
