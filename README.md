@@ -25,7 +25,11 @@ As popular and noble cause that Holi serves, it poses certain environmental conc
 
 So, it sprung upon that can we use deep learning to emulate how it would be for us to play Holi without actually having done so?💡
 
+## So lets see what we can do: 🧠
 
+We make use of the concept of **Photorealistic Image Style Transfer** 📸 here, which means to transfer the style of one image called the _style image_ to another image called the  _content image_ ,while making sure that the original structure and detail outline of the content image is intact as well as the resultant image resembles a real image that would have been shot by camera
+
+While several methods have been proposed over the years, here we shall use [NVIDIA'S A Closed-form Solution to Photorealistic Image Stylization](https://research.nvidia.com/publication/2018-09_A-Closed-form-Solution) for our purpose 🔥
 
 ## Credits
 
