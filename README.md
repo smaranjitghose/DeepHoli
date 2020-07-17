@@ -106,8 +106,9 @@ For the optimization, we take care of a smoothening and fitting component:
 
 ## Contributors
 
-- Smaranjit Ghose
-- Suhrid Datta
+- Smaranjit Ghose.
+- Sukkrit Sharma.
+- Suhrid Datta.
 
 
 ## Credits 👏👏
